@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Components/Nav';
 import CustomerReviews from './Sections/CustomerReviews';
 import Footer from './Sections/Footer';
+import Hero from './Sections/Hero';
 import PopularProducts from './Sections/PopularProducts';
 import Services from './Sections/Services';
 import SpecialOffers from './Sections/SpecialOffers';
@@ -14,7 +15,7 @@ function App() {
    <main className='relative'>
     <Nav />
     <section className='xl:padding-1 wide:padding-r padding-b'>
-      Hero
+      <Hero />
 
     </section>
     <section className='padding'> 

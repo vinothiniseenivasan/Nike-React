@@ -6,7 +6,7 @@ import Footer from './Sections/Footer';
 import Hero from './Sections/Hero';
 import PopularProducts from './Sections/PopularProducts';
 import Services from './Sections/Services';
-import SpecialOffers from './Sections/SpecialOffers';
+import SpecialOffer from './Sections/SpecialOffer';
 import SubscribeApp from './Sections/SubscribeApp';
 import SuperQuality from './Sections/SuperQuality';
 
@@ -32,7 +32,7 @@ function App() {
       </section>
      
       <section className='padding'>
-         <SpecialOffers />
+         <SpecialOffer />
       </section>
       <section className='padding bg-pale-blue padding'>
            <CustomerReviews />

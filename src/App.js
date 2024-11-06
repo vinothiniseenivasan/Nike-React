@@ -7,7 +7,7 @@ import Hero from './Sections/Hero';
 import PopularProducts from './Sections/PopularProducts';
 import Services from './Sections/Services';
 import SpecialOffer from './Sections/SpecialOffer';
-import SubscribeApp from './Sections/SubscribeApp';
+import Subscribe from './Sections/Subscribe';
 import SuperQuality from './Sections/SuperQuality';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         </section>
 
         <section className='padding-x sm:py-32 py-16 w-full'>
-           <SubscribeApp />
+           <Subscribe />
         </section>
   
         <section className='padding bg-black padding-x padding-t pb-8'>
